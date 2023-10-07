@@ -1,0 +1,67 @@
+# Pertemuan7
+pertemuan7tabelkolom
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Pertemuan 7</title>
+</head>
+<body>
+    <table cellspacing="2" cellpadding="2" border="1" width="70%" >
+        <caption>BIODATA MAHASISWA</caption>
+         <tr>
+         <th width="15%" bgcolor="grey"><font color="blue" face="Arial" size="4">Nama</font></th>
+         <th width="16%"bgcolor="grey">Alamat</th>
+         <th width="39%" colspan="3" align="center"bgcolor="grey">Telepon</th>
+
+         </tr>
+         <tr>
+         <td width="15%">Bagas Riatma Putera</td>
+         <td width="16%">&nbsp;Jatiwangi, Cikarang Barat</td>
+         <td width="13%" align="center">021 - 5678910</td>
+         <td width="13%" align="center">0812285104</td>
+         <td width="13%" align="center">021 - 56788901</td>
+         </tr>
+         <tr>
+         <td width="15%">Junaidi Firmansyah</td>
+         <td width="16%">&nbsp;Jababela, Cikarang Utara</td>
+         <td width="13%" align="center">021 - 76456982</td>
+         <td width="13%" align="center">08183457298</td>
+         <td width="13%" align="center">021 - 66543881</td>
+         </tr>
+        </table>
+        <p>&nbsp;</p>
+        <table border="1" width="70%" >
+        <caption>BIODATA MAHASISWA</caption>
+         <tr>
+         <th width="15%"bgcolor="grey">Nama</th>
+         <th width="16%"bgcolor="grey">Alamat</th>
+         <th width="39%" align="center"bgcolor="grey">Telepon</th>
+         </tr>
+         <tr>
+         <td width="15%" rowspan="3" valign="top">Bagas Riatma Putera</td>
+         <td width="16%" rowspan="3" valign="top">&nbsp;Jatiwangi, Cikarang Barat</td>
+         <td width="39%" align="center">021 - 55667788</td>
+         </tr>
+         <tr>
+         <td width="39%" align="center">08131445689</td>
+         </tr>
+         <tr>
+         <td width="39%" align="center">021 - 56788901</td>
+         </tr>
+         <tr>
+         <td width="15%" rowspan="3">Junaidi Firmansyah</td>
+         <td width="16%" rowspan="3">&nbsp;Jababela, Cikarang Utara</td>
+         <td width="39%" align="center">021 - 76456982</td>
+         </tr>
+         <tr>
+         <td width="39%" align="center">08183457298</td>
+         </tr>
+         <tr>
+         <td width="39%" align="center">021 - 66543881</td>
+        </tr>
+        </table>
+</body>
+</html>
